@@ -49,7 +49,7 @@ export default class App extends Component {
     }
 
     componentDidMount() {
-        Axios.get('https://reactnative.dev/movies.json')
+        Axios.get('https://raw.githubusercontent.com/arhansyah/Grand-Kanaya-House/main/Babyyvnd')
         .then(res => {
             const movies = res.data.movies;
             this.setState({ movies });
